@@ -26,8 +26,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExplorePortfolio })
           <div className="lg:col-span-7 space-y-6">
             {/* Unboxed editorial kicker */}
             <div className="flex items-center gap-2 text-xs font-semibold tracking-widest text-stone-500 uppercase">
-              <span>{MUA_PROFILE.credential}</span>
-              <span aria-hidden="true">·</span>
               <span>Spesialis Bridal & Adat Aceh / Nusantara</span>
               <span aria-hidden="true">·</span>
               <span>Banda Aceh dan sekitarnya</span>
